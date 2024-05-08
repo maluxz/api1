@@ -1,3 +1,39 @@
+# CryptoContentStore (English)
+- API using the Express.js Framework and connecting to a MySQL and/or MSSQL Server database (No ORM usage such as Sequelize 😞).
+
+## Description
+- CryptoContentStore is a content store project that allows users to make purchases of digital products using cryptocurrencies. This project was initiated as part of the Full Stack Web Development course at the Technological Institute of Delicias (TecNM).
+
+## Main Features
+
+- **Users and Authentication:**
+  - The user has a username, a password encrypted with bcrypt, an optional email, and the amount of tokens available for purchases.
+  - Login is managed using JWT (JSON Web Tokens) for secure authentication.
+
+- **Address Management:**
+  - Each user can generate new deposit addresses that are associated with their user ID upon creation.
+
+- **Transactions and Cryptocurrencies:**
+  - Once the user has generated a deposit address and made a deposit, the database records and processes the transaction, adding the corresponding amount of tokens to the amount of cryptocurrency deposited in the address. Additionally, this transaction can be verified from any public network block explorer.
+ 
+- **Digital Products:**
+  - The store plans to offer digital products for purchase from anywhere in the world without the need for centralized intermediaries thanks to the crypto's network (BTC Testnet).
+
+## Project Structure
+
+The project has been carefully organized to improve code clarity and maintainability. The structure includes:
+
+- **Folders:**
+  - Folders are logically distributed to house specific components of the project (e.g., authentication, transactions, products, etc.).
+
+- **Routes and Endpoints:**
+  - Routes and endpoints have been clearly defined to facilitate navigation and understanding of the application flow.
+
+## Author
+- [Mario Lujan](https://github.com/maluxz)
+
+---
+
 # CryptoContentStore
 - API utilizando el Framework Express.js y que conecta a una base de datos MySQL y/o MSSQL Server (No se cuenta con uso de ORM como Sequelize 😞).
 
