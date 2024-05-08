@@ -34,7 +34,7 @@ The project has been carefully organized to improve code clarity and maintainabi
 
 ---
 
-# CryptoContentStore
+# CryptoContentStore (Español)
 - API utilizando el Framework Express.js y que conecta a una base de datos MySQL y/o MSSQL Server (No se cuenta con uso de ORM como Sequelize 😞).
 
 ## Descripción
